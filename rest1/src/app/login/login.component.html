@@ -1,0 +1,19 @@
+<br>
+<div class="row">
+  <table class="table table-striped stripe">
+    <thead>
+    <tr>
+      <th>No.</th>
+      <th>Country</th>
+      <th>Population</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let hero of countries">
+      <td>{{hero.id}}</td>
+      <td>{{hero.countryName}}</td>
+      <td>{{hero.population}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
