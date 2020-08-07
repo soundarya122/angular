@@ -7,7 +7,6 @@ import {HttpClientService} from './http-client.service';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-
   countries: string[];
 
   constructor(
